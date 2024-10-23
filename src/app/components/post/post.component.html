@@ -1,0 +1,42 @@
+<div class="post-container">
+    <div class="user-info">
+      <img [src]="post.author.profilePic" alt="User Profile Picture" />
+      <h3>{{ post.author.name }}</h3>
+    </div>
+    <ejs-carousel
+      [id]="post.id"
+      [buttonsVisibility]="'Visible'"
+      [enableTouchSwipe]="false"
+    >
+      <e-carousel-items>
+        <e-carousel-item *ngFor="let image of post.images" [template]="carouselItemTemplate">
+          <ng-template #carouselItemTemplate>
+            <div class="carousel-item">
+              <img [src]="image" alt="Post Image" />
+            </div>
+          </ng-template>
+        </e-carousel-item>
+      </e-carousel-items>
+    </ejs-carousel>
+    <div class="icons">
+      <div class="action-icons">
+        <span class="e-icons e-medium e-check-tick"></span>
+        <span class="e-icons e-medium e-comment-show"></span>
+        <span class="e-icons e-medium e-send"></span>
+      </div>
+      <span class="e-icons e-medium e-bookmark bookmark-icon"></span>
+    </div>
+    <div class="likes">
+      <div class="images">
+        <img *ngFor="let image of post.likes.images" [src]="image" class="profile-icon" />
+      </div>
+      <p>
+        curtido por <span>{{ post.likes.first }}</span> e
+        <span>outros </span>
+      </p>
+    </div>
+    <div class="description">
+      <span>{{ post.author.name }}</span>
+      <p>{{ post.description }}</p>
+    </div>
+  </div>

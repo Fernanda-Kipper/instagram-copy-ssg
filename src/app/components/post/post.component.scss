@@ -1,0 +1,80 @@
+.post-container {
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border: 1px solid #dbdbdb;
+      }
+  
+      h3 {
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+    }
+  
+    .description {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+  
+      span {
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+    }
+  
+    .likes {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+  
+      p {
+        span {
+          font-size: 0.8rem;
+          font-weight: 700;
+        }
+      }
+  
+      // make images overlap
+      .images {
+        display: flex;
+        img {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: white;
+          box-shadow: 0 0 0 2px white;
+        }
+  
+        img + img {
+          margin-left: -15px;
+        }
+      }
+    }
+  
+    .carousel-item {
+      border: 1px solid #dbdbdb;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+  
+      .action-icons {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }

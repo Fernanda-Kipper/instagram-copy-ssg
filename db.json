@@ -1,0 +1,175 @@
+{
+  "friends": {
+    "posts": [
+      {
+        "id": 1,
+        "author": {
+          "id": 1,
+          "name": "John Doe",
+          "profilePic": "https://ej2.syncfusion.com/demos/src/grid/images/1.png"
+        },
+        "title": "Post 1",
+        "images": [
+          "https://ej2.syncfusion.com/demos/src/grid/images/1.png",
+          "https://ej2.syncfusion.com/demos/src/grid/images/2.png",
+          "https://ej2.syncfusion.com/demos/src/grid/images/3.png"
+        ],
+        "description": "Description 1",
+        "likes": {
+          "images": [
+            "https://ej2.syncfusion.com/demos/src/grid/images/1.png",
+            "https://ej2.syncfusion.com/demos/src/grid/images/2.png",
+            "https://ej2.syncfusion.com/demos/src/grid/images/3.png"
+          ],
+          "first": "Fernanda"
+        }
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 1,
+          "name": "John Doe",
+          "profilePic": "https://ej2.syncfusion.com/demos/src/grid/images/1.png"
+        },
+        "title": "Post 2",
+        "images": [
+          "https://ej2.syncfusion.com/demos/src/grid/images/1.png",
+          "https://ej2.syncfusion.com/demos/src/grid/images/2.png",
+          "https://ej2.syncfusion.com/demos/src/grid/images/3.png"
+        ],
+        "description": "Description 2",
+        "likes": {
+          "images": [
+            "https://ej2.syncfusion.com/demos/src/grid/images/3.png",
+            "https://ej2.syncfusion.com/demos/src/grid/images/2.png",
+            "https://ej2.syncfusion.com/demos/src/grid/images/1.png"
+          ],
+          "first": "Leonardo"
+        }
+      }
+    ]
+  },
+  "explore_br": {
+    "posts": [
+      {
+        "id": 3,
+        "author": {
+          "id": 201,
+          "name": "Anitta",
+          "profilePic": "https://example.com/anitta-profile-pic.jpg"
+        },
+        "title": "Nova música chegando",
+        "images": [
+          "https://example.com/anitta-music-pic1.jpg",
+          "https://example.com/anitta-music-pic2.jpg",
+          "https://example.com/anitta-music-pic3.jpg"
+        ],
+        "description": "Ansiosa para lançar minha nova música para vocês!",
+        "likes": {
+          "images": [
+            "https://example.com/fan1-profile-pic.jpg",
+            "https://example.com/fan2-profile-pic.jpg",
+            "https://example.com/fan3-profile-pic.jpg"
+          ],
+          "first": "Pedro"
+        }
+      },
+      {
+        "id": 4,
+        "author": {
+          "id": 202,
+          "name": "Neymar",
+          "profilePic": "https://example.com/neymar-profile-pic.jpg"
+        },
+        "title": "Novo projeto",
+        "images": [
+          "https://example.com/neymar-project-pic1.jpg",
+          "https://example.com/neymar-project-pic2.jpg",
+          "https://example.com/neymar-project-pic3.jpg"
+        ],
+        "description": "Estou trabalhando em algo novo, fiquem ligados!",
+        "likes": {
+          "images": [
+            "https://example.com/fan4-profile-pic.jpg",
+            "https://example.com/fan5-profile-pic.jpg",
+            "https://example.com/fan6-profile-pic.jpg"
+          ],
+          "first": "Ronaldo"
+        }
+      }
+    ]
+  },
+  "explore_usa": {
+    "posts": [
+      {
+        "id": 1,
+        "author": {
+          "id": 101,
+          "name": "Justin Bieber",
+          "profilePic": "https://example.com/justin-bieber-profile-pic.jpg"
+        },
+        "title": "New Tour Announcement",
+        "images": [
+          "https://example.com/justin-bieber-tour-pic1.jpg",
+          "https://example.com/justin-bieber-tour-pic2.jpg",
+          "https://example.com/justin-bieber-tour-pic3.jpg"
+        ],
+        "description": "Excited to announce my new world tour!",
+        "likes": {
+          "images": [
+            "https://example.com/fan1-profile-pic.jpg",
+            "https://example.com/fan2-profile-pic.jpg",
+            "https://example.com/fan3-profile-pic.jpg"
+          ],
+          "first": "Hailey"
+        }
+      },
+      {
+        "id": 2,
+        "author": {
+          "id": 102,
+          "name": "Eminem",
+          "profilePic": "https://example.com/eminem-profile-pic.jpg"
+        },
+        "title": "New Album Release",
+        "images": [
+          "https://example.com/eminem-album-pic1.jpg",
+          "https://example.com/eminem-album-pic2.jpg",
+          "https://example.com/eminem-album-pic3.jpg"
+        ],
+        "description": "Dropping my new album next month. Stay tuned!",
+        "likes": {
+          "images": [
+            "https://example.com/fan4-profile-pic.jpg",
+            "https://example.com/fan5-profile-pic.jpg",
+            "https://example.com/fan6-profile-pic.jpg"
+          ],
+          "first": "Dr. Dre"
+        }
+      },
+      {
+        "id": 3,
+        "author": {
+          "id": 103,
+          "name": "Taylor Swift",
+          "profilePic": "https://example.com/taylor-swift-profile-pic.jpg"
+        },
+        "title": "The Eras Tour",
+        "images": [
+          "https://example.com/taylor-swift-tour-pic1.jpg",
+          "https://example.com/taylor-swift-tour-pic2.jpg",
+          "https://example.com/taylor-swift-tour-pic3.jpg"
+        ],
+        "description": "Can't wait to see you all on the road!",
+        "likes": {
+          "images": [
+            "https://example.com/fan7-profile-pic.jpg",
+            "https://example.com/fan8-profile-pic.jpg",
+            "https://example.com/fan9-profile-pic.jpg"
+          ],
+          "first": "Selena Gomez"
+        }
+      }
+    ]
+  }
+}

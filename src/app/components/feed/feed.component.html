@@ -1,0 +1,7 @@
+<div class="feed-container">
+    <ejs-listview [dataSource]="posts" cssClass="e-list-template">
+      <ng-template #template let-post>
+        <app-post [post]="post"></app-post>
+      </ng-template>
+    </ejs-listview>
+</div>
